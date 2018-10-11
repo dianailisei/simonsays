@@ -1,0 +1,102 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+body
+{
+    position: relative;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+main
+{
+    padding-top: 100px;
+}
+header, main, footer
+{
+    padding-top: 20px;
+    text-align: center;
+}
+
+aside 
+{
+    position: absolute;
+    top: 100px;
+    right: 30px;
+    border: 2px solid #f9d77e;
+    border-radius: 10%;
+    padding: 25px 10px;
+}
+
+header h1
+{
+    font-size: 30px;
+}
+header #blue-line 
+{
+    display: block;
+    height: 1px;
+    width: 100%;
+    border: 0;
+    border-top: 1px solid blue;
+    margin: 1em 0;
+    padding: 0;
+}
+
+main button 
+{
+    display: inline-block;
+    padding: 25px 70px;
+    background-color: #f9d77e;
+    color: black;
+    font-size: 30px;
+    border: 0;
+    margin: 10px;
+}
+
+aside select 
+{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+aside button
+{
+    display: block;
+    width: 100px;
+    background-color: blue;
+    color: black;
+    font-size: 20px;
+    border: 0;
+}
+
+.highlighted-btn
+{
+    background-color: #42cab8;
+}
+
+#timer 
+{
+    font-size: 30px;
+}
+
+.warning
+{
+    color: red;
+}

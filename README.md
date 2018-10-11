@@ -1,0 +1,2 @@
+# simonsays
+JS little project
